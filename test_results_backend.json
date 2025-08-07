@@ -1,0 +1,92 @@
+{
+  "total_tests": 14,
+  "passed_tests": 14,
+  "failed_tests": 0,
+  "success_rate": 100.0,
+  "results": [
+    {
+      "test": "Health Check",
+      "status": "\u2705 PASS",
+      "message": "API is healthy: CryptoRebound Ranking API v2.0 - Ready to track 1000+ cryptocurrencies!",
+      "timestamp": "2025-08-07T14:44:47.717190"
+    },
+    {
+      "test": "Crypto Ranking Basic",
+      "status": "\u2705 PASS",
+      "message": "Retrieved 50 cryptos, properly ranked",
+      "timestamp": "2025-08-07T14:44:47.989157"
+    },
+    {
+      "test": "Ranking Parameters {'period': '1h', 'limit': 10, 'offset': 0}",
+      "status": "\u2705 PASS",
+      "message": "Got 10 results",
+      "timestamp": "2025-08-07T14:44:48.192453"
+    },
+    {
+      "test": "Ranking Parameters {'period': '24h', 'limit': 50, 'offset': 0}",
+      "status": "\u2705 PASS",
+      "message": "Got 10 results",
+      "timestamp": "2025-08-07T14:44:48.264195"
+    },
+    {
+      "test": "Ranking Parameters {'period': '7d', 'limit': 100, 'offset': 10}",
+      "status": "\u2705 PASS",
+      "message": "Got 0 results",
+      "timestamp": "2025-08-07T14:44:48.366046"
+    },
+    {
+      "test": "Ranking Parameters {'period': '30d', 'limit': 25, 'offset': 5}",
+      "status": "\u2705 PASS",
+      "message": "Got 5 results",
+      "timestamp": "2025-08-07T14:44:48.440467"
+    },
+    {
+      "test": "Scoring Algorithms",
+      "status": "\u2705 PASS",
+      "message": "All scores within valid ranges for 10 cryptos",
+      "timestamp": "2025-08-07T14:44:48.524630"
+    },
+    {
+      "test": "Multi-Period Analysis",
+      "status": "\u2705 PASS",
+      "message": "Retrieved 10 multi-period cryptos with trend: Strong",
+      "timestamp": "2025-08-07T14:44:48.732752"
+    },
+    {
+      "test": "Crypto Summary",
+      "status": "\u2705 PASS",
+      "message": "Summary: 10 cryptos, sentiment: Tr\u00e8s Positif",
+      "timestamp": "2025-08-07T14:44:48.800223"
+    },
+    {
+      "test": "Performance Health Check",
+      "status": "\u2705 PASS",
+      "message": "Response time: 0.02s",
+      "timestamp": "2025-08-07T14:44:48.818088"
+    },
+    {
+      "test": "Performance Ranking 50",
+      "status": "\u2705 PASS",
+      "message": "Response time: 0.09s",
+      "timestamp": "2025-08-07T14:44:48.912193"
+    },
+    {
+      "test": "Performance Ranking 100",
+      "status": "\u2705 PASS",
+      "message": "Response time: 0.08s",
+      "timestamp": "2025-08-07T14:44:48.993052"
+    },
+    {
+      "test": "Performance Multi-Period",
+      "status": "\u2705 PASS",
+      "message": "Response time: 0.22s",
+      "timestamp": "2025-08-07T14:44:49.215008"
+    },
+    {
+      "test": "Performance Summary",
+      "status": "\u2705 PASS",
+      "message": "Response time: 0.08s",
+      "timestamp": "2025-08-07T14:44:49.299741"
+    }
+  ]
+}
